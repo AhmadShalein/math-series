@@ -45,28 +45,28 @@ def test_lucas_ntn():
 
 # sum_series tests
 
-def test_sum_series_zero():
-    expected = 0
-    actual = sum_series(0)
-    assert actual == expected
+# def test_sum_series_zero():
+#     expected = 0
+#     actual = sum_series(0)
+#     assert actual == expected
 
-def test_sum_series_zero_lucas(a=2,b=1):
-    expected = 2
-    actual = sum_series(0 , a ,b)
-    assert actual == expected
+# def test_sum_series_zero_lucas(a=2,b=1):
+#     expected = 2
+#     actual = sum_series(0 , a ,b)
+#     assert actual == expected
 
-def test_sum_series_one():
-    expected = 1
-    actual = sum_series(1)
-    assert actual == expected
+# def test_sum_series_one():
+#     expected = 1
+#     actual = sum_series(1)
+#     assert actual == expected
 
-def test_sum_series_one_lucas(a=2,b=1):
-    expected = 1
-    actual = sum_series(1 , a ,b)
-    assert actual == expected
+# def test_sum_series_one_lucas(a=2,b=1):
+#     expected = 1
+#     actual = sum_series(1 , a ,b)
+#     assert actual == expected
 
-def test_sum_series_nth():
-    for z in range(2,100):
-        expected = sum_series(z-1) + sum_series(z-2)
-        actual = sum_series(z)
-        assert actual == expected
+# def test_sum_series_nth():
+#     for z in range(2,100):
+#         expected = sum_series(z-1) + sum_series(z-2)
+#         actual = sum_series(z)
+#         assert actual == expected
